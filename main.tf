@@ -1,6 +1,6 @@
 resource "google_compute_instance" "env0-instance" {
   name                      = "env0-instance"
-  machine_type              = "e2-medium"
+  machine_type              = "e2-small"
   project                   = var.project
   zone                      = var.default_zone
   allow_stopping_for_update = true
